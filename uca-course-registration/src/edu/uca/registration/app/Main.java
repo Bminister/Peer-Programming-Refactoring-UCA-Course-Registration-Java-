@@ -13,7 +13,7 @@ public class Main {
         var courseRepo = new CsvCourseRepository();
         var enrollmentRepo = new CsvEnrollmentRepository(courseRepo);
 
-        // Create service
+        // Create test.java.edu.uca.registration.service
         var registrationService = new RegistrationService(studentRepo, courseRepo, enrollmentRepo);
 
         // Load existing data
